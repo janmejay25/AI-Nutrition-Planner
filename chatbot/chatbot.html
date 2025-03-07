@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot UI</title>
+    <link rel="stylesheet" href="chatbotstyle.css">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Chat Header -->
+        <div class="chat-header">
+            <div class="back-button">&#8592;</div>
+            <div class="chat-info">
+                <img src="components/chatbotlogo.png" alt="Bot" class="bot-icon">
+                <div>
+                    <h3>FitBot</h3>
+                    <span class="status">🟢 Always active</span>
+                </div>
+            </div>
+            <div class="menu">⋮</div>
+        </div>
+
+        <!-- Chat Messages -->
+        <div class="chat-messages">
+            <div class="message bot">Sure! Can you provide your age, weight, height, and activity level?</div>
+            <div class="message user">Hi! I need a meal plan for weight loss.</div>
+            <div class="message user">I'm 25, 70kg, 170cm, and moderately active.</div>
+            <div class="message user">I prefer vegetarian and have a nut allergy.</div>
+            <div class="message bot">Got it! How many meals do you prefer per day?</div>
+            <div class="message bot">
+                Noted! Here’s a sample meal plan for you:
+                <ul>
+                    <li>Breakfast: Oats with banana and chia seeds</li>
+                    <li>Lunch: Quinoa salad with veggies and tofu</li>
+                    <li>Snack: Greek yogurt with berries</li>
+                    <li>Dinner: Lentil soup with whole wheat bread</li>
+                </ul>
+                Would you like me to generate another option? 😊
+            </div>
+            <div class="message bot">
+                ✅ 3 meals<br>
+                ✅ 3 meals + 1 snack<br>
+                ✅ 5 small meals
+            </div>
+        </div>
+
+        <!-- Message Input -->
+        <div class="chat-input">
+            <input type="text" placeholder="Type a message...">
+            <button class="send-button">➤</button>
+        </div>
+    </div>
+</body>
+</html>
