@@ -1,0 +1,152 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f7f9ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main Container */
+.container {
+    background: #fdfdf5;
+    width: 500px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Header */
+.header {
+    /* background: url('components/3d_avatar_.png') no-repeat center; */
+    /* background-size: cover; */
+    padding: 40px 0;
+    /* position: relative; */
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    left:0;
+    top:0;
+    /* border: 3px solid white; */
+    margin-top: 5px;
+    margin-left: 150px;
+    position: absolute;
+    /* border:2px solid red; */
+}
+
+.name-input {
+    position: absolute;
+    width: 15%;
+    padding: 8px;
+    border: 2px solid rgb(70, 70, 98);
+    border-radius: 5px;
+    margin-top: 110px;
+    margin-left: 100px;
+    left:0;
+    top:0;
+    /* text-align: center
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+/* Section Titles */
+h2 {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #3a5a40;
+}
+
+/* Buttons */
+.buttons-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.btn {
+    background: #5a7d63;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background: #4b6b55;
+}
+
+/* Small Buttons */
+.small {
+    padding: 5px 10px;
+}
+
+/* Input Groups */
+h3 {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.input-group input {
+    width: 50px;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+span {
+    align-self: center;
+    font-size: 14px;
+    color: #3a5a40;
+}
+
+/* Allergy Input */
+.allergy-input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    background: #d6e3d6;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* Submit Button */
+.submit-btn {
+    background: #b8e994;
+    color: black;
+    border: none;
+    padding: 12px;
+    width: 90%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background: #a0d67d;
+}

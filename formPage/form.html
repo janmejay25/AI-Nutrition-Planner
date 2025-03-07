@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Plan Generator</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <input type="text" class="name-input" placeholder="Gurpreet Singh Dhillon">
+    <div class="container">
+        <!-- Header Image -->
+        <img src="components/3d_avatar_.png" alt="Profile Image" class="profile-pic">
+        <div class="header">
+        </div>
+
+        <!-- Diet Purpose -->
+        <h2>Purpose of the diet</h2>
+        <div class="buttons-group">
+            <button class="btn">💪 Muscle Gain</button>
+            <button class="btn">✨ Stay Toned</button>
+            <button class="btn">🔥 Loss Weight</button>
+        </div>
+
+        <!-- Body Information -->
+        <h2>Body information</h2>
+        <div class="unit-toggle">
+            <button class="btn small">kg</button>
+            <button class="btn small">lbs</button>
+            <button class="btn small">cm</button>
+            <button class="btn small">feet</button>
+        </div>
+
+        <h3>Height</h3>
+        <div class="input-group">
+            <input type="text" value="5"> <span>feet</span>
+            <input type="text" value="10"> <span>inch</span>
+        </div>
+
+        <h3>Weight</h3>
+        <div class="input-group">
+            <input type="text" value="40"> <span>lbs</span>
+        </div>
+
+        <h3>Goal weight</h3>
+        <div class="input-group">
+            <input type="text" value="36"> <span>lbs</span>
+        </div>
+
+        <h3>Diet period</h3>
+        <div class="input-group">
+            <input type="text" value="4"> <span>weeks</span>
+        </div>
+
+        <!-- Vegan Diet Types -->
+        <h2>Types of vegan diets</h2>
+        <div class="buttons-group">
+            <button class="btn">🌱 Vegan</button>
+            <button class="btn">🥛 Lacto-Vegetarian</button>
+            <button class="btn">🥚 Ovo-Vegetarian</button>
+            <button class="btn">🥚🥛 Lacto-Ovo-Vegetarian</button>
+            <button class="btn">🐟 Pescatarian</button>
+            <button class="btn">🍗 Pollo-Vegetarian</button>
+            <button class="btn">🍖 Anything</button>
+        </div>
+
+        <!-- Allergies Input -->
+        <h3>Please tell me all the foods you are allergic to</h3>
+        <input type="text" class="allergy-input" placeholder="ex) Milk, Nuts, Eggs">
+
+        <!-- Submit Button -->
+        <button class="submit-btn">Generate Meal Plan By AI</button>
+    </div>
+</body>
+</html>
