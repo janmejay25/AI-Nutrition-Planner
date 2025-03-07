@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #fafdf2;
+}
+
+.nav{
+    background-color: #1A3129;
+    color: white;
+    
+}
+.banner{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 10px; */
+    /* border:2px solid red; */
+}
+.banner img{
+    /* position: relative; */
+    width:41px;
+    padding-left: 5vh;
+    padding-right: 10vh;  
+    margin-top: 3.5px; 
+    /* border:2px solid blue;  */
+    background-color: #234338;
+}
+#signup{
+   border-radius: 10px;
+    background-color: #CBEA7B;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 15px;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.textbanner{
+    padding-top: 9px;
+    padding-bottom: 3px;
+    background-color: #234338;
+    /* border:2px solid blue; */
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border:2px solid rebeccapurple; */
+
+}
+#home{
+    color:#CBEA7B;
+}
+
+.logo{
+    display: flex;
+    padding: 20px;
+}
+.logotext{
+    padding-top: 10px;
+    padding-left: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navlinks a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.navlinks ul{
+    display: flex;
+    list-style: none;
+}
+.navlinks ul li{
+    padding: 10px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+.heroimg img {
+    width: 450px;
+    border-radius: 10px;
+}
+
+.HeroAbout {
+    max-width: 500px;
+}
+
+.HeroAbout h3 {
+    color: #1b3825;
+}
+
+.HeroAbout h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1b3825;
+}
+
+.HeroAbout p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.btns {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btnhero {
+    background-color: #9bcf53;
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnhero a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Chatbot */
+.chatbot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.chatbot img {
+    width: 100px;
+    cursor: pointer;
+}
+.reviewimg img{
+    width: 300px;
+    height: 80px;
+    margin-top: 20px;
+    margin-right: 10px;
+    /* border:2px solid red; */
+}
